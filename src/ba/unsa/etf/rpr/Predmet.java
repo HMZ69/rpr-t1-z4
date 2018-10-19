@@ -29,8 +29,8 @@ public class Predmet {
                 System.out.println("Student uspješno upisan na predmet " + this.dajNazivPredmeta() + "!");
                 return;
             }
-            System.out.println("Dostignut je maksimalan broj studenata na predmetu " + nazivPredmeta + ".");
         }
+        System.out.println("Dostignut je maksimalan broj studenata na predmetu " + nazivPredmeta + ".");
     }
     void ispisi(Student s) {
         for (int i = 0; i < maxBrojStudenata; i++) {
@@ -44,8 +44,8 @@ public class Predmet {
                 System.out.println("Student uspješno ispisan sa predmeta " + this.dajNazivPredmeta() + "!");
                 return;
             }
-            System.out.println("Student " + s.dajIme() + " " + s.dajPrezime() + " ne sluša predmet " + this.nazivPredmeta + ".");
         }
+        System.out.println("Student " + s.dajIme() + " " + s.dajPrezime() + " ne sluša predmet " + this.nazivPredmeta + ".");
     }
 
     void ispisStudenata() {

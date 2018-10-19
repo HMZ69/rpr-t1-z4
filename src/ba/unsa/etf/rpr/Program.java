@@ -23,6 +23,7 @@ public class Program {
                 return;
             }
         }
+        System.out.println("Dostignut je maksimalan broj studenata!");
     }
 
     public static void upisiStudenta(Student s, Predmet p) {
