@@ -103,10 +103,10 @@ public class Program {
 	    kreirajStudenta("Hamza", "Muminović", 17543, studenti);
 	    kreirajStudenta("Haris", "Šikić", 17656, studenti);
 	    kreirajStudenta("Tin", "Vidović", 17345, studenti);
-	    kreirajStudenta("Amina", "Dizdarević", 17777, studenti);
 	    kreirajStudenta("Dženita", "Škulj", 17832, studenti);
 	    kreirajPredmet("Inženjerska fizika 1", 2, 10, predmeti);
 	    upisiStudenta(studenti[3], predmeti[1]);
+	    upisiStudenta(studenti[0], predmeti[1]);
 	    ispisSpiskaStudenata(predmeti[1]);
     }
 }
