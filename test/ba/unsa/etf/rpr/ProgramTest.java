@@ -6,14 +6,52 @@ import static org.junit.jupiter.api.Assertions.*;
 
 class ProgramTest {
 
-    /*@Test
+    @Test
+    void dajStudenti() {
+        Predmet[] predmeti = null;
+        Student[] studenti = null;
+        Program p = new Program(predmeti, studenti);
+        assertSame(p.dajStudenti(), null);
+    }
+
+    @Test
+    void dajPredmeti() {
+        Predmet[] predmeti = null;
+        Student[] studenti = null;
+        Program p = new Program(predmeti, studenti);
+        assertSame(p.dajPredmeti(), null);
+    }
+
+    @Test
     void kreirajPredmet() {
-        int maxBrojStudenata = 1;
-        String naziv = "Matematika";
-        int sifra = 1;
-        Predmet[] predmeti = new Predmet[1];
-        kreirajPredmet(naziv, sifra, maxBrojStudenata, predmeti);
 
-    }*/
+    }
 
+    @Test
+    void kreirajStudenta() {
+    }
+
+    @Test
+    void upisiStudenta() {
+    }
+
+    @Test
+    void ispisiStudenta() {
+    }
+
+    @Test
+    void izbrisiStudenta() {
+    }
+
+    @Test
+    void izbrisiPredmet() {
+    }
+
+    @Test
+    void ispisSpiskaStudenata() {
+    }
+
+    @Test
+    void main() {
+    }
 }
